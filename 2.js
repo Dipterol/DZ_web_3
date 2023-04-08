@@ -1,6 +1,6 @@
-const name = prompt("Введите ваше имя :")
-alert(`Приве, ${greeting(name)} !`)
+const name = prompt("Введите ваше имя :");
+alert(`${greeting(name)}`);
 
 function greeting (a) {
-    return a;
+    return (`Приве, ${a} !`);
 }
